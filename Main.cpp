@@ -8,10 +8,10 @@ using namespace std;
 class Graph
 {
 private:
-	size_t num_root; // номер выделенного узла
-	size_t num_nodes; // кол-во узлов
-	size_t num_edges; // кол-во ребер
-	size_t** matrix; // Матрица связей
+	size_t num_root; // РЅРѕРјРµСЂ РІС‹РґРµР»РµРЅРЅРѕРіРѕ СѓР·Р»Р°
+	size_t num_nodes; // РєРѕР»-РІРѕ СѓР·Р»РѕРІ
+	size_t num_edges; // РєРѕР»-РІРѕ СЂРµР±РµСЂ
+	size_t** matrix; // РјР°С‚СЂРёС†Р° СЃРІСЏР·РµР№
 public:
 	Graph(size_t num_r, size_t nodes_num, size_t edges_num);
 	void getData(string& expression);
